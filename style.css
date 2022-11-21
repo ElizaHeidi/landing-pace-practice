@@ -74,7 +74,8 @@ p {
     display: flex;
 }
 
-img {
-
+button {
+    background-color: rgb(78, 129, 247);
+    color: white;
 
 }
