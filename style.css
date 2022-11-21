@@ -19,6 +19,7 @@ body {
 header {
    background-color: black; 
    color: white;
+   
 }
 
 ul {
@@ -43,7 +44,7 @@ section {
     display: flex;
     flex-wrap: wrap;    
     width: 100%;
-    margin-right: 50px;
+    margin-right: 75px;
     margin-top: 0px;
     margin-left: 95px;
     width: 425px;
@@ -70,7 +71,8 @@ h1 {
 }
 
 p {
-    width: 200px;
+    font-size: 18px;
+    width: 400px;
     flex: 1;
     margin: 25px;  
     margin-left: -.5px; 
