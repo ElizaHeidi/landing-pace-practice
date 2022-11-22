@@ -133,7 +133,16 @@ h1 {
 }
 
 .card {
-    width: 120px;
+    width: 202px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.p1 {
+    text-align: center;
+    margin-left: 5px;
 }
 
 figure {
