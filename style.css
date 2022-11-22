@@ -126,6 +126,21 @@ h1 {
 
 } 
 
+.pairs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 120px;
+}
+
+figure {
+    display: flex;
+    width: 100vh;
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -154,11 +169,6 @@ footer {
     font-weight: bold;
     font-size: 14px;
     margin-left: 65px;
-}
-
-.second {
-    display: flex;
-    height: 55px;
 }
 
 .text-2 {
