@@ -40,6 +40,61 @@ a {
 }
 
 section {
+    padding: 3rem 2rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home-bg {
+    background-color: black;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.home .content {
+    flex: none;
+    flex: 1 1 42rem;
+}
+
+.home .image {
+    flex: none;
+    flex: 1 1 42rem;
+
+}
+
+.hero-p {
+    color: pink;
+    width: 293px;
+    margin-bottom: 10px;
+}
+
+.hero-h1 {
+    color: pink;
+    font-size: 36px;
+    margin: 4px;
+    margin-bottom: 42px;
+}
+
+.btn {
+    color: pink;
+    background-color: blue;
+}
+
+/* section {
     display: flex;
     background-color: black;
     align-items: center;
@@ -109,7 +164,7 @@ button {
     background-color: #3882f6;
     color: white;
 
-}
+} */
 
 .main {
     display: flex;
@@ -168,7 +223,8 @@ h1 {
     font-style: italic;
     font-size: 36px;
     height: 350px;
-    margin-top: 75px;
+    margin-top: 45px;
+    margin-bottom: -205px;
 }
 
 .quote2 {
