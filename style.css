@@ -1,4 +1,4 @@
-/* * {
+ * {
     border: 1px solid red;
 }  */
 
@@ -146,13 +146,36 @@ h1 {
     margin-left: 5px;
 }
 
+.hi {
+    display: flex;
+
+}
+
 .qcontainer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 350px;
     background-color: lightgrey;
     margin-bottom: 50px;
     margin-top: 50px;
+    flex-direction: column;
+}
+
+.quote1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    height: 350px;
+    margin-top: 75px;
+}
+
+.quote2 {
+    text-align: right;
+    font-weight: bold;
+    margin-top: -95px;
+    margin-left: 350px;
 }
 
 footer {
