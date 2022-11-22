@@ -17,7 +17,7 @@ body {
 }
 
 header {
-   background-color: black; 
+   background-color: pink; 
    color: white;
    
 }
@@ -42,7 +42,17 @@ a {
 .hero {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 52px;
+    background-color: pink;
+}
+
+.hero-header {
+    color: white;
+    margin-bottom: 45px;
+}
+
+.hero-subtext {
+    color: white;
 }
 
 /* section {
